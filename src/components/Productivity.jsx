@@ -4,9 +4,9 @@ import CountUp from 'react-countup'
 const Productivity = () => {
   return (
     <div className='container max-w-screen-2xl lg:px-24 px-4 bg-primaryColorBlack mx-auto py-16'>
-      <div className='grid grid-cols-4 gap-2'>
-        <div className='flex justify-start items-center'>
-          <h2 className='text-2xl font-medium text-white font-popins leading-snug'>
+      <div className='grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-2'>
+        <div className='flex lg:justify-start lg:text-start text-center items-center'>
+          <h2 className='text-2xl font-medium text-white font-popins leading-snug '>
             People Productivity Performance
           </h2>
         </div>
