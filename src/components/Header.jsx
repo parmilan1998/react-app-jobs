@@ -24,7 +24,7 @@ const Header = () => {
   )
 
   return (
-    <div className=' font-popins'>
+    <div className='font-popins'>
       <div className='flex flex-row justify-center items-center py-3 gap-4 bg-primaryColor'>
         <img src={Logo} alt='Logo' className='w-6 h-6' />
         <Link to='/'>
@@ -77,7 +77,7 @@ const Header = () => {
           </a>
           <a
             href=''
-            className='px-5 py-2.5 bg-primaryColorPurple text-white rounded-xl hidden lg:flex' 
+            className='px-5 py-2.5 bg-primaryColorPurple text-white rounded-xl hidden lg:flex'
           >
             Create account
           </a>

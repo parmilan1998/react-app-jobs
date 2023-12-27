@@ -7,7 +7,7 @@ const RootLayout = () => {
   return (
     <>
       <Header />
-      <div className='min-h-[80vh] bg-neutral-100'>
+      <div>
         <Outlet />
       </div>
       <Footer />
