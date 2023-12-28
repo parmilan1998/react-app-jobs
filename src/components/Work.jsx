@@ -36,7 +36,7 @@ const Work = () => {
           best fit to your challenge in short time and with personal assistance.
         </span>
       </div>
-      <div className='grid lg:grid-cols-3 grid-col-1 justify-center items-center text-center gap-6 py-10'>
+      <div className='grid lg:grid-cols-3 sm:grid-col-1 md:grid-cols-2 justify-center items-center text-center gap-6 py-10'>
         {workDetails.map((item, index) => (
           <div
             key={item.id}
