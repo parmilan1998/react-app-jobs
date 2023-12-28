@@ -23,7 +23,7 @@ const Arrow = () => {
       <div className='flex lg:flex-row flex-col gap-6'>
         <div className='lg:w-1/3'>
           <div className='space-y-5'>
-            <h2 className='text-4xl leading-snug font-bold tracking-wide'>
+            <h2 className='text-4xl leading-snug font-bold tracking-wide text-center lg:text-left'>
               Why Leading Tech Companies Trust The Arrows
             </h2>
             <p className='text-lg lg:leading-loose lg:tracking-wide'>
@@ -36,25 +36,40 @@ const Arrow = () => {
             </button>
           </div>
         </div>
-        <div className='w-2/3'>
-          <div className='grid lg:grid-cols-2 sm:grid-col-1 md:grid-cols-2 gap-6'>
-            {detailList.map((item) => (
-              <div key={item.id}>
-                <div className='flex flex-col justify-center space-y-2'>
-                  <div>
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className='h-[450px] w-[300px] mx-auto flex justify-center'
-                    />
-                  </div>
-                  <h2 className='text-xl font-medium text-left text-primaryColorBlue lg:mx-10'>
-                    {item.name}
-                  </h2>
-                  <span className='text-lg lg:mx-10'>{item.description}</span>
-                </div>
-              </div>
-            ))}
+        <div className='lg:w-1/3'>
+          <div className='flex flex-col justify-center space-y-2'>
+            <div>
+              <img
+                src='./arrow/men01.jpg'
+                alt=''
+                className='h-[400px] mx-auto rounded-2xl'
+              />
+            </div>
+            <h2 className='text-xl font-medium text-left text-primaryColorBlue lg:mx-14'>
+              Temas Bunce
+            </h2>
+            <span className='text-lg lg:mx-14'>
+              We have asked the expert lead for a full-stack developer on a
+              project basis.
+            </span>
+          </div>
+        </div>
+        <div className='lg:w-1/3'>
+          <div className='flex flex-col justify-center space-y-2'>
+            <div>
+              <img
+                src='./arrow/men02.jpg'
+                alt=''
+                className='h-[400px] mx-auto rounded-2xl'
+              />
+            </div>
+            <h2 className='text-xl font-medium text-left text-primaryColorBlue lg:mx-16'>
+              Temas Bunce
+            </h2>
+            <span className='text-lg lg:mx-16'>
+              We were supported in one of our Machine Learning projects by a
+              freelancer of Expert lead.
+            </span>
           </div>
         </div>
       </div>
@@ -63,3 +78,27 @@ const Arrow = () => {
 }
 
 export default Arrow
+
+{
+  /* <div className='w-2/3'>
+<div className='grid lg:grid-cols-2 sm:grid-col-1 md:grid-cols-2 gap-6'>
+  {detailList.map((item) => (
+    <div key={item.id}>
+      <div className='flex flex-col justify-center space-y-2'>
+        <div>
+          <img
+            src={item.image}
+            alt={item.name}
+            className='h-[450px] w-[300px] mx-auto'
+          />
+        </div>
+        <h2 className='text-xl font-medium text-left text-primaryColorBlue lg:mx-10'>
+          {item.name}
+        </h2>
+        <span className='text-lg lg:mx-10'>{item.description}</span>
+      </div>
+    </div>
+  ))}
+</div>
+</div> */
+}

@@ -6,7 +6,7 @@ import { TbTie } from 'react-icons/tb'
 const Footer = () => {
   return (
     <div className='font-popins'>
-      <footer className='footer p-10 bg-primaryColorBlack lg:px-20 px-4 flex flex-col lg:flex-row justify-around '>
+      <footer className='sm:text-center footer p-10 bg-primaryColorBlack lg:px-20 px-4 flex flex-col lg:flex-row justify-around '>
         <aside>
           <div className='flex flex-row justify-center items-center gap-3'>
             <div className=' bg-primaryColor p-3 rounded-lg'>
